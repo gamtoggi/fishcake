@@ -8,11 +8,12 @@ Fishcake 내용:
 	* capistrano
 
 사용법:
-	> git clone git://github.com/gamtoggi/fishcake.git
-	> cd fishcake
+	> git clone git://github.com/gamtoggi/fishcake.git your_app_name
+	> cd your_app_name
 	> rake fishcake:rename NAME=your_app_name
-	database.yml 생성(database.example.yml) 후 
+	database.yml 생성(database.example.yml 참고) 후 
 	> rake db:create
+	> git remote rm origin
 	
 주의사항:		
 	* welcome index 페이지가 필요 없다면:
